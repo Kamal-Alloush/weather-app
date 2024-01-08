@@ -131,7 +131,7 @@ const weatherOfCity = (cityName) => {
                         </span>
                         <span>
                         <p class="text-transparent bg-clip-text bg-sky-800">${data.current.condition.text}</p>
-                        <img class="" src"${data.current.condition.icon}" alt="weather-icon">
+                        <img class="" src="${data.current.condition.icon}" alt="weather-icon">
                         </span>
                         <span>
                         <p class="text-transparent bg-clip-text bg-emerald-600">Current temp :${data.current.temp_c}&#176;</p>
