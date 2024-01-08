@@ -126,8 +126,8 @@ const weatherOfCity = (cityName) => {
       CurrentWeather.innerHTML = `
                         <li class="sm:py-4 listed flex justify-between">
                         <span>
-                        <h3 class="text-transparent bg-clip-text text-2xl bg-sky-800">${data.location.country}</h3>
-                        <small class="text-transparent bg-clip-text bg-emerald-600">${data.location.name}</small>
+                        <h3 class="text-transparent bg-clip-text text-2xl bg-sky-800">${data.location.name}</h3>
+                        <small class="text-transparent bg-clip-text bg-emerald-600">${data.location.country}</small>
                         </span>
                         <span>
                         <p class="text-transparent bg-clip-text bg-sky-800">${data.current.condition.text}</p>
